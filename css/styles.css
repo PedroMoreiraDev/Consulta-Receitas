@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  background-color: #729d39;
+  margin-top: 10rem;
+  border-radius: 10%;
+}
+
+form {
+  /* background-color: blue; */
+  margin: 2rem;
+  padding: 1rem;
+}
+
+fieldset {
+  padding: 2rem;
+  background-color: #36622b;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10%;
+  color: antiquewhite;
+  border-color: #36622b;
+  border: none;
+}
+
+div {
+  justify-content: center;
+  padding: 15px;
+}
+
+legend {
+  text-align: center;
+  background-color: #36622b;
+  border-radius: 50%;
+  padding: 20px;
+}
