@@ -11,6 +11,33 @@ body {
   background-color: aqua;
 }
 
+
+/* Estilização do Menu */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+nav{
+  background-color:#a80b0b;
+}
+
+ul{
+  padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+nav ul li{
+  padding: 30px 30px;
+    display: inline-block;
+}
+
+/* estilização do formulário */
+
 main {
   display: flex;
   align-items: center;
@@ -55,3 +82,7 @@ legend {
   border-radius: 50%;
   padding: 20px;
 }
+
+/* estilização das imagens */
+
+
