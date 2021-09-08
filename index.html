@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
 
@@ -12,52 +12,50 @@
     <header>
       <nav>
         <ul>
-          <li> <a href="#">Home</a></li>
-          <li> <a href="#">Sobre</a></li>
-          <li> <a href="#">Equipe</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Equipe</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
       <div class="container">
-        <form action="">
-          <fieldset>
-            <legend>Pratos de comida</legend>
+        <div class="form">
+          <div>
+            <label for="nomeDoPrato">Nome do Prato</label> <br />
+            <input type="text" id="nomeDoPrato" class="info" />
+          </div>
 
-            <div>
-              <label for="nomeDoPrato">Nome do Prato</label> <br>
-              <input type="text" id="nomeDoPrato" />
-            </div>
-            <div>
-              <label for="tipoPrato">Tipo do Prato</label><br>
-              <input type="radio" name="tipo">Carne</input>
-              <input type="radio" name="tipo">Frango</input>
-              <input type="radio" name="tipo">Massa</input>
-            </div>
-            <div>
-              <label for="urlPrato">URL da imagem do Prato</label><br>
-              <input type="text" id="urlPrato" />
-            </div>
-            <div>
-              <label for="urlPrato">Descrição do Prato</label><br>
-              <textarea name="" id="urlPrato" maxlength="360"></textarea>
-            </div>
-          </fieldset>
-        </form>
+          <div>
+            <label for="urlPrato">URL da imagem do Prato</label><br />
+            <input type="text" id="urlPrato" class="info" />
+          </div>
 
-        
+          <div>
+            <label for="urlPrato">Descrição do Prato</label><br />
+            <textarea
+              name=""
+              id="descricaoPrato"
+              maxlength="360"
+              class="info"
+            ></textarea>
+          </div>
+
+          <button
+            type="text"
+            class="submit"
+            onclick="createCard()"
+            id="btnCreateCard"
+          >
+            Adicionar
+          </button>
+        </div>
       </div>
     </main>
 
-    <section>
-      <ul>
-        <li>teste</li>
-        <li>teste</li>
-        <li>teste</li>
-        <li>teste</li>
-        <li>teste</li>
-        
-      </ul>
-    </section>
+    <div id="card"></div>
+
+    <script src="./app.js"></script>
   </body>
 </html>

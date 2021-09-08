@@ -5,35 +5,38 @@
 }
 
 body {
-  /* display: flex; */
   align-items: center;
   justify-content: center;
-  background-color: aqua;
+  background-color: #911f27;
 }
 
-
 /* Estilização do Menu */
-header{
+header {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
-nav{
-  background-color:#a80b0b;
+nav {
+  background-color: #911f27;
 }
 
-ul{
-  padding:0px;
-    margin:0px;
-    list-style:none;
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
 }
 
-nav ul li{
+nav ul li {
   padding: 30px 30px;
-    display: inline-block;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #face7f;
+  font-size: 20px;
 }
 
 /* estilização do formulário */
@@ -42,33 +45,31 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: #630a10;
 }
 
 .container {
   display: flex;
-  margin: 0 auto;
-  background-color: #729d39;
-  margin-top: 10rem;
+  margin: 30px;
+  background-color: #face7f;
   border-radius: 10%;
+  font-size: 15px;
 }
 
-form {
-  /* background-color: blue; */
-  margin: 2rem;
-  padding: 1rem;
-}
-
-fieldset {
-  padding: 2rem;
-  background-color: #36622b;
+.food-card {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  border-radius: 10%;
-  color: antiquewhite;
-  border-color: #36622b;
-  border: none;
+  margin: 5px;
+  background-color: #f8c462;
+  border-radius: 15px;
+  font-size: 15px;
+  width: 45%;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 div {
@@ -76,13 +77,33 @@ div {
   padding: 15px;
 }
 
-legend {
-  text-align: center;
-  background-color: #36622b;
-  border-radius: 50%;
-  padding: 20px;
+.texto {
+  display: flex;
+}
+
+.info {
+  background-color: #911f27;
+  border-radius: 10px;
+  color: #face7f;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  padding: 2px 20px;
+}
+
+button {
+  background-color: #630a10;
+  color: #face7f;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  height: 30px;
+  width: 95%;
+  margin-top: 20px;
+}
+
+.submit:active {
+  background-color: #06b;
 }
 
 /* estilização das imagens */
-
-
