@@ -15,12 +15,11 @@ function inserirCard() {
                                     <h2 class="titulo-card">${nomeDoPrato}</h2> 
                                     <img src="${urlPrato}" class="imagem-comida">
                                     <p class="descricao-card">${descricaoPrato}<p> </div>`;
-
-  let json = `{"imagem":"${urlPrato}", "titulo":"${nomeDoPrato}"}`;
-
-  localStorage.setItem("card", json);
 }
 
+// let json = `{"imagem":"${urlPrato}", "titulo":"${nomeDoPrato}"}`;
+
+// localStorage.setItem("card", json);
 // window.onload = function () {
 //   let obj = localStorage.getItem("card");
 //   obj = JSON.parse(obj); // transforma a string em json
