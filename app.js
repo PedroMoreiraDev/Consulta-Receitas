@@ -1,11 +1,11 @@
-//Função para a criação de cards
-let elements = 0;
-let urlPrato = "";
+//Inserindo as imagens no HTML
+
 let nomeDoPrato = "";
 let descricaoPrato = "";
+let urlPrato = "";
 let arrObjImagem = [];
 
-function createCard() {
+function inserirCard() {
   nomeDoPrato = document.getElementById("nomeDoPrato").value;
   descricaoPrato = document.getElementById("descricaoPrato").value;
   urlPrato = document.getElementById("urlPrato").value;
