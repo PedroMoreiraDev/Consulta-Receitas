@@ -11,9 +11,10 @@ function createCard() {
   urlPrato = document.getElementById("urlPrato").value;
 
   let cardSection = document.getElementById("card");
-  cardSection.innerHTML += `<div class="food-card"> <img src="${urlPrato}">
-                                    <h2>${nomeDoPrato}</h2>
-                                    <p>${descricaoPrato}<p> </div>`;
+  cardSection.innerHTML += `<div class="food-card"> 
+                                    <h2 class="titulo-card">${nomeDoPrato}</h2> 
+                                    <img src="${urlPrato}" class="imagem-comida">
+                                    <p class="descricao-card">${descricaoPrato}<p> </div>`;
 
   let json = `{"imagem":"${urlPrato}", "titulo":"${nomeDoPrato}"}`;
 
