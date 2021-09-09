@@ -23,3 +23,9 @@ Os cards devem ter uma imagem e constar as informações previamente preenchidas
 
 ### ENTREGA:
 Devem ser entregues os arquivos HTML5, CSS3 e Javascript do projeto via Git/Github. Você deverá enviar o link do repositório até o dia 14/09/2021 às 23:59.
+
+### Projeto realizado por:
+- [@mariobiondog](https://github.com/mariobiondog)
+- [@fidelismaia](https://github.com/fidelismaia)
+- [@leodsmartins](https://github.com/leodsmartins)
+- [@PedroMoreiraDev](https://github.com/PedroMoreiraDev)
