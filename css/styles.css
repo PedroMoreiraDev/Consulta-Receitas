@@ -2,35 +2,62 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:'Roboto', sans-serif;  
+  
 }
 
 body {
-  align-items: center;
+  display: grid;
+    width:100vw ;
+    height: 100vh;
+    background-image: url("../img/becca-tapert-bancada-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    grid-template-areas: 
+        "area-1 area-1"
+        "area-2 area-3";     
+    grid-template-rows: 140px 1fr;  
+    grid-template-columns: 400px 1fr; 
+
+  /* align-items: center;
   justify-content: center;
-  background-color: #911f27;
+  background-color: #911f27; */
 }
 
 /* Estilização do Menu */
 header {
+  grid-area: area-1;  
+  width: 100vw;
+  margin-top: 4rem;
+  background-color: rgba(153, 0, 0, 0.8);
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  font-family:'Roboto', sans-serif;    
+  align-items: center;  
+  color: white;
 }
 
-nav {
-  background-color: #911f27;
+#logo{
+  width:150px;
+  margin: 0 50px 0 50px;
+}
+
+h1{
+  font-size: 40px;
 }
 
 ul {
-  padding: 0px;
-  margin: 0px;
+  display: flex;
   list-style: none;
+  margin-left: 40rem;
+  
 }
 
-nav ul li {
-  padding: 30px 30px;
-  display: inline-block;
+li {
+  margin: 40px;
+  font-size: 20px;  
+  
 }
 
 a {
@@ -42,16 +69,21 @@ a {
 /* estilização do formulário */
 
 main {
+  grid-area: area-2;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #630a10;
+  /* background-color: #630a10; */
+}
+
+aside{
+  grid-area: area-3;
 }
 
 .container {
   display: flex;
   margin: 30px;
-  background-color: #face7f;
+  background-color:  	rgba(250, 206, 127,  0.8);
   border-radius: 10%;
   font-size: 15px;
 }
@@ -66,7 +98,7 @@ main {
 
 .food-card {
   /* margin: 5px; */
-  background-color: #f8c462;
+  background-color:	rgba(250, 206, 127, 0.8);;
   border-radius: 15px;
   /* font-size: 15px; */
   width: 30rem;
@@ -94,8 +126,8 @@ main {
 }
 
 .imagem-comida {
-  width: 70%;
-  height: 90%;
+  width: auto;
+  height: auto;
   border-radius: 0.3rem;
   padding: 0.5rem;
 }
