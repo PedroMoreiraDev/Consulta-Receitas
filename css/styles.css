@@ -2,24 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Roboto', sans-serif;  
-  
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   display: grid;
-    width:100vw ;
-    height: 100vh;
-    background-image: url("../img/becca-tapert-bancada-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    grid-template-areas: 
-        "area-1 area-1"
-        "area-2 area-3";     
-    grid-template-rows: 140px 1fr;  
-    grid-template-columns: 400px 1fr; 
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/becca-tapert-bancada-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  grid-template-areas:
+    "area-1 area-1"
+    "area-2 area-3";
+  grid-template-rows: 140px 1fr;
+  grid-template-columns: 400px 1fr;
 
   /* align-items: center;
   justify-content: center;
@@ -28,22 +27,22 @@ body {
 
 /* Estilização do Menu */
 header {
-  grid-area: area-1;  
+  grid-area: area-1;
   width: 100vw;
   margin-top: 4rem;
   background-color: rgba(153, 0, 0, 0.8);
   display: flex;
-  font-family:'Roboto', sans-serif;    
-  align-items: center;  
+  font-family: "Roboto", sans-serif;
+  align-items: center;
   color: white;
 }
 
-#logo{
-  width:150px;
+#logo {
+  width: 150px;
   margin: 0 50px 0 50px;
 }
 
-h1{
+h1 {
   font-size: 40px;
 }
 
@@ -51,13 +50,11 @@ ul {
   display: flex;
   list-style: none;
   margin-left: 40rem;
-  
 }
 
 li {
   margin: 40px;
-  font-size: 20px;  
-  
+  font-size: 20px;
 }
 
 a {
@@ -76,14 +73,18 @@ main {
   /* background-color: #630a10; */
 }
 
-aside{
+aside {
   grid-area: area-3;
+}
+
+textarea {
+  resize: none;
 }
 
 .container {
   display: flex;
   margin: 30px;
-  background-color:  	rgba(250, 206, 127,  0.8);
+  background-color: rgba(250, 206, 127, 0.8);
   border-radius: 10%;
   font-size: 15px;
 }
@@ -98,7 +99,7 @@ aside{
 
 .food-card {
   /* margin: 5px; */
-  background-color:	rgba(250, 206, 127, 0.8);;
+  background-color: rgba(250, 206, 127, 0.8);
   border-radius: 15px;
   /* font-size: 15px; */
   width: 30rem;
@@ -130,7 +131,7 @@ aside{
   height: auto;
   border-radius: 0.3rem;
   padding: 0.5rem;
-  max-width:100%;
+  max-width: 70%;
 }
 
 .descricao-card {

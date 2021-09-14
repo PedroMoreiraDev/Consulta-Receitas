@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Fonte Google Fonts (Roboto): -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Fonte Google Fonts (Roboto): -->
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Receitas</title>
@@ -15,7 +18,7 @@
 
   <body>
     <header>
-      <img id="logo" src="./img/plate.png">    
+      <img id="logo" src="./img/plate.png" />
       <h1>Receitas</h1>
       <nav>
         <ul>
@@ -23,7 +26,7 @@
           <li>Categorias</li>
           <li>Equipe</li>
         </ul>
-      </nav>      
+      </nav>
     </header>
 
     <main>
@@ -47,21 +50,23 @@
             <textarea
               name=""
               id="descricaoPrato"
-              maxlength="300"
+              maxlength="200"
               class="info"
+              rows="5"
+              colums="20"
+              wrap="hard"
             ></textarea>
           </div>
 
           <button type="text" class="submit" onclick="inserirCard()">
             Adicionar
-          </button>                     
-           
+          </button>
         </div>
       </div>
     </main>
 
     <aside>
-    <div id="card"></div>
+      <div id="card"></div>
     </aside>
 
     <script src="./app.js"></script>
