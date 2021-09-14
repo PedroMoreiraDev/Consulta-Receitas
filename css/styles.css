@@ -16,7 +16,9 @@ body {
   background-attachment: fixed;
   grid-template-areas:
     "area-1 area-1"
-    "area-2 area-3";
+    "area-2 area-2"
+    "area-3 area-3";
+
   grid-template-rows: 140px 1fr;
   grid-template-columns: 400px 1fr;
 
@@ -84,9 +86,14 @@ textarea {
 .container {
   display: flex;
   margin: 30px;
+  width: 400px;
   background-color: rgba(250, 206, 127, 0.8);
   border-radius: 10%;
   font-size: 15px;
+}
+
+h2{
+  text-align: center;
 }
 
 #card {
