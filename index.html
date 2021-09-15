@@ -30,12 +30,13 @@
           </div>
           <div>
             <label for="nomeDoPrato">Digite o nome do prato:</label>
-            <input type="text" id="nomeDoPrato" class="info" maxlength="47" />
+            <input type="text" id="nomeDoPrato" class="info" minlength="3" size="10" maxlength="47" />
           </div>
 
           <div>
             <label for="urlPrato">Insira a foto (URL):</label>
-            <input type="text" id="urlPrato" class="info" />
+            <input id="urlPrato" class="info" type="url"  required/>
+
           </div>
 
           <div>

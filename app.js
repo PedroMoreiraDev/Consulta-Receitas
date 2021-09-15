@@ -5,6 +5,7 @@ let descricaoPrato = "";
 let urlPrato = "";
 let arrObjImagem = [];
 
+
 function inserirCard() {
   nomeDoPrato = document.getElementById("nomeDoPrato").value;
   descricaoPrato = document.getElementById("descricaoPrato").value;
